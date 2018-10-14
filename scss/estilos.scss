@@ -1,0 +1,64 @@
+// LA FUENTE SON LAS SIGUIENTES:
+// TEXTOS: 'Muli', sans-serif;
+//TITULOS: 'Concert One', cursive;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.entero {
+    // Centrado de divs 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+}
+
+.medio {
+    width: 90%;
+    max-width: 1344px;
+
+
+}
+
+header {
+    margin-top: 15px;
+
+    .medio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 330px;
+        }
+    }
+}
+
+.contacto {
+    p {
+        font-family: 'Muli', sans-serif;
+    }
+}
+
+
+.menu{
+    
+    .medio{
+        background: #222222;   
+        border-bottom: 4px solid #468615;
+        padding: 10px 0; 
+        a{
+            text-decoration: none;  
+            color: white; 
+            font-family: 'Muli', sans-serif;
+            //margin: 10px;
+            border-right: 1px solid white; 
+            padding: 0 12px;
+        }   
+    } 
+}
